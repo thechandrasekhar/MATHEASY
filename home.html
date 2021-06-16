@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="images/flogo.png" alt="logo"></a>
+            <ul class="nav_links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#About">Contact</a></li>
+            </ul>
+            <img src="images/moon.png"  id="icon">
+    </header>
+    <div id="div3">
+        <div class="cal">
+            <h3>Calculator</h3>
+		    <div id="contain">
+			    <div id="calculator">
+				    <div id="result">
+					    <div id="history">
+						    <p id="history-value"></p>
+					    </div>
+					    <div id="output">
+						    <p id="output-value"></p>
+					    </div>
+				    </div>
+				    <div id="keyboard">
+					    <button class="operator" id="clear">C</button>
+					    <button class="operator" id="backspace">CE</button>
+					    <button class="operator" id="%">%</button>
+					    <button class="operator" id="/">&#247;</button>
+					    <button class="number" id="7">7</button>
+					    <button class="number" id="8">8</button>
+					    <button class="number" id="9">9</button>
+					    <button class="operator" id="*">&times;</button>
+					    <button class="number" id="4">4</button>
+					    <button class="number" id="5">5</button>
+					    <button class="number" id="6">6</button>
+					    <button class="operator" id="-">-</button>
+					    <button class="number" id="1">1</button>
+					    <button class="number" id="2">2</button>
+					    <button class="number" id="3">3</button>
+				        <button class="operator" id="+">+</button>
+					    <button class="empty" id="empty"></button>
+					    <button class="number" id="0">0</button>
+					    <button class="empty" id="empty"></button>
+					    <button class="operator" id="=">=</button>
+				    </div>
+			    </div>
+		    </div>
+        </div>
+    </div>
+    <div id="div1">
+        <div class="menu">
+            <h2>NAVIGATE</h2>
+            <a href="algebra.html"><p>Algebra</p></a>
+            <a href="geometry.html"><p>Geometry</p></a>
+            <a href="trigonometry.html"><p>Trigonometry</p></a>
+            <a href="calculas.html"><p>Calculas</p></a>
+            <a href="probability.html"><p>Probability</p></a>
+            <a href="statistics.html"><p>Statistics</p></a>
+            <a href="m1.html"><p>M1</p></a>
+            <a href="m2.html"><p>M2</p></a>
+        </div>
+    </div>
+    <div id="div2">
+        <div class="intro">
+            <h1>HELLO,</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Sit amet tellus cras adipiscing enim. Pretium nibh ipsum consequat nisl vel pretium lectus. Sit amet nisl purus in.
+                Nulla facilisi morbi tempus iaculis. Pretium aenean pharetra magna ac placerat vestibulum lectus mauris ultrices.
+                Volutpat blandit aliquam etiam erat. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa.
+                Pellentesque elit eget gravida cum sociis natoque penatibus et. Neque convallis a cras semper auctor neque vitae tempus quam.
+                Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac. Ornare lectus sit amet est placerat. Cum sociis natoque penatibus et.
+                Faucibus turpis in eu mi bibendum neque.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="box">
+            <div class="content">
+                <img src="#">
+                <a href="Algebra.html"><p>Algebra</p></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <img src="#">
+                <a href="geometry.html"><p>Geometry</p></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <img src="#">
+                <a href="trigonometry.html"><p>Trigonometry</p></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <img src="#">
+                <a href="calculas.html"><p>Calculas</p></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <img src="#">
+                <a href="probability.html"><p>Probability</p></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <img src="#">
+                <a href="statistics.html"><p>Statistics</p></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <img src="#">
+                <a href="m1.html"><p>M1</p></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <img src="#">
+                <a href="m2.html"><p>M2</p></a>
+            </div>
+        </div>
+        <section>
+            
+
+        </section>
+    </div>
+    <script type="text/javascript">
+        var lastScrollTop = 0;
+            navbar = document.getElementById("navbar");
+        window.addEventListener("scroll",function(){
+            var ScrollTop = window.pageYOffset || document
+                .documentElement.scrollTop;
+            if (ScrollTop > lastScrollTop){
+                navbar.style.top = "-80";
+            }else {
+                navbar.style.top = "0";
+            }
+            lastScrollTop = ScrollTop;
+        })
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

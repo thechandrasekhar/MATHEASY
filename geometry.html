@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="images/flogo.png" alt="logo"></a>
+            <ul class="nav_links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#contact">Calculator</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <img src="images/moon.png" id="icon">
+        </nav>
+    </header>
+    <br>
+    <h1>GEOMETRY</h1>
+    <br><br>
+    <div id="div1">
+        <div class="menu">
+            <h2>NAVIGATE</h2>
+            <a href="algebra.html"><p>Algebra</p></a>
+            <a href="geometry.html"><p>Geometry</p></a>
+            <a href="trigonometry.html"><p>Trigonometry</p></a>
+            <a href="calculas.html"><p>Calculas</p></a>
+            <a href="probability.html"><p>Probability</p></a>
+            <a href="statistics.html"><p>Statistics</p></a>
+            <a href="m1.html"><p>M1</p></a>
+            <a href="m2.html"><p>M2</p></a>
+        </div>
+    </div>
+<!------------------------------------------------ Square ---------------------------------------------------->
+    <h2>Square</h2>
+    <div class="container">
+        <div class="box">
+            <div class="content">
+                <p>Perimeter</p>
+                <br>
+                <input type="number" placeholder="Enter Side" id="s_side1"><br>
+                <br>
+                <button type="button" onclick="s_peri();">Perimeter</button>
+                <br><br><br>
+                <h5 id="s_res1">result</h5>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <p>Area</p>
+                <br>
+                <input type="number" placeholder="Enter Side" id="s_side2"><br>
+                <br>
+                <button type="button" onclick="s_area();">Area</button>
+                <br><br><br>
+                <h5 id="s_res2">result</h5>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <p>Diagonal</p>
+                <br>
+                <input type="number" placeholder="Enter Side" id="s_side3"><br>
+                <br>
+                <button type="button" onclick="s_dia();">Diagonal</button>
+                <br><br><br>
+                <h5 id="s_res3">result</h5>
+            </div>
+        </div>
+    </div>
+<!------------------------------------------------ Rectangle ---------------------------------------------------->
+    <h2>Rectangle</h2>
+    <div class="container">
+        <div class="box">
+            <div class="content">
+                <p>Perimeter</p>
+                <br>
+                <input type="number" placeholder="Enter Length" id="r_len1"><br>
+                <input type="number" placeholder="Enter Width" id="r_wid1"><br>
+                <br>
+                <button type="button" onclick="r_peri();">Perimeter</button>
+                <br><br><br>
+                <h5 id="r_res1">result</h5>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <p>Area</p>
+                <br>
+                <input type="number" placeholder="Enter Length" id="r_len2"><br>
+                <input type="number" placeholder="Enter Width" id="r_wid2"><br>
+                <br>
+                <button type="button" onclick="r_area();">Area</button>
+                <br><br><br>
+                <h5 id='r_res2'>result</h5>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <p>Diagonal</p>
+                <br>
+                <input type="number" placeholder="Enter Length" id="r_len3"><br>
+                <input type="number" placeholder="Enter Width" id="r_wid3"><br>
+                <br>
+                <button type="button" onclick="r_dia();">Diagonal</button>
+                <br><br><br>
+                <h5 id='r_res3'>result</h5>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------------ Circle ---------------------------------------------------->
+
+
+    <h2>Circle</h2>
+    <div class="container">
+        <div class="box">
+            <div class="content">
+                <p>Circumference</p>
+                <br>
+                <input type="number" placeholder="Enter Radius" id="c_rad1"><br>
+                <br>
+                <button type="button" onclick="c_cir();">Circumference</button>
+                <br><br><br>
+                <h5 id="c_res1">result</h5>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <p>Area</p>
+                <br>
+                <input type="number" placeholder="Enter Radius" id="c_rad2"><br>
+                <br>
+                <button type="button" onclick="c_area();">Area</button>
+                <br><br><br>
+                <h5 id="c_res2">result</h5>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <p>Diameter</p>
+                <br>
+                <input type="number" placeholder="Enter Radius" id="c_rad3"><br>
+                <br>
+                <button type="button" onclick="c_dia();">Diameter</button>
+                <br><br><br>
+                <h5 id="c_res3">result</h5>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
